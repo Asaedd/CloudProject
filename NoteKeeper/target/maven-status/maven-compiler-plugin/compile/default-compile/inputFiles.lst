@@ -1,0 +1,14 @@
+C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\core\Model\AccessType.java
+C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\core\Model\Note.java
+C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\core\Model\NoteVersion.java
+C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\core\Model\Permission.java
+C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\core\Model\Tag.java
+C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\core\Model\User.java
+C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\core\Repository\NoteRepository.java
+C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\core\Repository\NoteVersionRepository.java
+C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\core\Repository\PermissionRepository.java
+C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\core\Repository\TagRepository.java
+C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\core\Repository\UserRepository.java
+C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\NoteKeeperProApplication.java
+C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\usecases\CreateNoteUseCase.java
+C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\web\Controller\NoteController.java

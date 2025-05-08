@@ -1,24 +1,44 @@
 package com.notekeeperpro.core.Model;
 
-import jakarta.persistence.*;
-
-@Entity
 public class Permission {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Enumerated(EnumType.STRING)
     private AccessType accessType; // VIEW or EDIT
 
-    @ManyToOne
-    @JoinColumn(name = "note_id")
     private Note note;
 
-    @ManyToOne
-    @JoinColumn(name = "shared_with_user_id")
     private User sharedWith;
 
-    // Getters and Setters
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public AccessType getAccessType() {
+        return accessType;
+    }
+
+    public void setAccessType(AccessType accessType) {
+        this.accessType = accessType;
+    }
+
+    public Note getNote() {
+        return note;
+    }
+
+    public void setNote(Note note) {
+        this.note = note;
+    }
+
+    public User getSharedWith() {
+        return sharedWith;
+    }
+
+    public void setSharedWith(User sharedWith) {
+        this.sharedWith = sharedWith;
+    }
 }

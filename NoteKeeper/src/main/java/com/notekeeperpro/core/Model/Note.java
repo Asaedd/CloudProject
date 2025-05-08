@@ -1,39 +1,24 @@
 package com.notekeeperpro.core.Model;
 
-import jakarta.persistence.*;
 import java.time.LocalDateTime;
 import java.util.List;
 
-@Entity
 public class Note {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String title;
 
-    @Lob
-    @Column(columnDefinition = "LONGTEXT")
     private String content;
     
 
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 
-    @ManyToOne
-    @JoinColumn(name = "owner_id")
     private User owner;
 
-    @ManyToMany
-    @JoinTable(
-        name = "note_tags",
-        joinColumns = @JoinColumn(name = "note_id"),
-        inverseJoinColumns = @JoinColumn(name = "tag_id")
-    )
     private List<Tag> tags;
 
-    @OneToMany(mappedBy = "note", cascade = CascadeType.ALL)
     private List<NoteVersion> versions;
 
     public Long getId() {

@@ -9,6 +9,13 @@ C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\c
 C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\core\Repository\PermissionRepository.java
 C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\core\Repository\TagRepository.java
 C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\core\Repository\UserRepository.java
+C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\infrastructure\Persistence\NoteRepositoryJPA.java
+C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\infrastructure\Persistence\NoteVersionRepositoryJPA.java
+C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\infrastructure\Persistence\PermissionRepositoryJPA.java
+C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\infrastructure\Persistence\TagRepositoryJPA.java
+C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\infrastructure\Persistence\UserRepositoryJPA.java
 C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\NoteKeeperProApplication.java
 C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\usecases\CreateNoteUseCase.java
+C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\usecases\LoginUseCase.java
 C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\web\Controller\NoteController.java
+C:\Users\user\Desktop\cloud project\NoteKeeper\src\main\java\com\notekeeperpro\web\Controller\UserController.java

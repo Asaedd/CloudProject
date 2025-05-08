@@ -1,26 +1,19 @@
 package com.notekeeperpro.core.Model;
 
-import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
-@Entity
 public class NoteVersion {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private int versionNumber;
 
     private String title;
 
-    @Lob
     private String content;
 
     private LocalDateTime savedAt;
 
-    @ManyToOne
-    @JoinColumn(name = "note_id")
     private Note note;
 
     public Long getId() {
